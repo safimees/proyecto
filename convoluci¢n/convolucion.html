@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Convoluci�n</title>
+  <style media="screen">
+
+  </style>
+  </head>
+  <body>
+    <canvas width='200' height='200' id='canvas'></canvas>
+      <canvas width='200' height='200' id='canvas2'></canvas>
+    <p><input type='file' id='cargar'></p>
+
+    <div class="">
+      <input type="number" id="ar" value="0">
+      <input type="number" id="ag" value="0">
+      <input type="number" id="ab" value="0">
+    </div>
+    <div class="">
+      <input type="number" id="br" value="0">
+      <input type="number" id="bg" value="0">
+      <input type="number" id="bb" value="0">
+    </div>
+    <div class="">
+      <input type="number" id="cr" value="0">
+      <input type="number" id="cg" value="0">
+      <input type="number" id="cb" value="0">
+    </div>
+    <div class="">
+      <p>divisor</p> <input type="number" id="divisor" value="0">
+      <p>bias</p> <input type="number" id="bias" value="0">
+    </div>
+
+
+    <p><input type="button" value="procesar" onclick="brillo()" /></p>
+
+
+
+
+    <script src="convolucion.js"></script>
+  </body>
+
+</html>
